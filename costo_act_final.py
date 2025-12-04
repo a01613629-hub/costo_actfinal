@@ -57,4 +57,4 @@ b0 = LR.intercept_
 prediccion = b0 + b1[0]*df["Presupuesto"] + b1[1]*df["Tiempo invertido"] + b1[2]*df["Tipo"]+ b1[3]*df["Momento"]+ b1[3]*df["No. de personas"]
 
 st.subheader("Calculo del costo")
-st.write(f"El costo estimado de la actividad es: **${prediccion:,.2f}** pesos")
+st.write(f"El costo estimado de la actividad es:$",prediccion)
